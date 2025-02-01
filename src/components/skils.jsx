@@ -38,18 +38,9 @@ function Skils() {
             <div className="flex md:justify-start gap-5 justify-center items-center w-full flex-wrap">
               <Card data={skills__libs} />
             </div>
-            <div className="generall__border p-5 w-max text-xl">
-              <h3 data-cursor-style>Libs functionlaty 👌</h3>
-            </div>
-            <div className="flex md:justify-start gap-5 justify-center items-center w-full flex-wrap">
-              <Card data={skills__libs_functionlaty} />
-            </div>
-            <div className="generall__border p-5 w-max text-xl">
-              <h3 data-cursor-style>data base 🔎</h3>
-            </div>
-            <div className="flex md:justify-start gap-5 justify-center items-center w-full flex-wrap">
-              <Card data={skills__databases} />
-            </div>
+           
+            
+          
             <div className="generall__border p-5 w-max text-xl">
               <h3 data-cursor-style>texnologies ✌️</h3>
             </div>

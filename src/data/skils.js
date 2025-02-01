@@ -53,42 +53,29 @@ import ReactNative from '../Assets/icons/React-Dark.svg'
 export const skills__lang = [
 
     { image: JavaScript, text: 'Java script - first lang' },
-    { image: Cplus, text: 'C++' },
-    { image: TypeScript, text: 'Typescript ❤️' },
-    { image: NodeJs, text: 'Node JS' },
-    { image: Php, text: 'PHP - dear lang' },
-    { image: Python, text: 'Python ⚡' },
+
+    { image: TypeScript, text: 'Typescript ' },
+
 ]
 
 export const skills__libs = [
-    { image: ExpressJS, text: 'Express Js frame off Node js' },
+  
     { image: TailwindCSS, text: 'Tailwind css' },
     { image: Bootstrap, text: 'bootstrap' },
     { image: Sass, text: 'Sass' },
-    { image: Less, text: 'Less css' },
-    { image: React, text: 'React Js ❤️' },
-    { image: Astro, text: 'Astro ' },
-    { image: Gulp, text: 'Gulp builder' },
-    { image: TensorFlow, text: 'Tensorflow Js' },
-    { image: ThreeJS, text: 'Three Js - 3D lib' },
-    { image: NextJS, text: 'Next Js - popular FrameWork' },
-    { image: Pug, text: 'Pug' },
-    { image: Svelte, text: 'Svelte' },
+   
+    { image: React, text: 'React Js ' },
+   
+  
     { image: JQuery, text: 'Jquery - old friend' },
     { image: Vite, text: 'Vite js⚡' },
     { image: Html, text: 'Html 😍' },
-    { image: Htmx, text: 'Htmx ' },
-    { image: Jest, text: 'Jest' },
-    { image: NestJS, text: 'Nest js' },
-    { image: VueJS, text: 'Vue Js ' },
-    { image: Angular, text: 'Angular Js' },
-    { image: SolidJS, text: 'Solid js' },
-    { image: Redux, text: 'Redux' },
+
+
     { image: Webpack, text: 'Webpack' },
-    { image: Electron, text: 'Electron Js' },
-    { image: 'https://cdn.worldvectorlogo.com/logos/recoil-js.svg', text: 'Recoil' },
+
     { image: 'https://logowik.com/content/uploads/images/react-query9872.logowik.com.webp', text: 'React query' },
-    { image: 'https://cdn.worldvectorlogo.com/logos/mobx.svg', text: 'Mobix' },
+   
     { image: 'https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg', text: 'Zustand' },
 ]
 export const skills__libs_functionlaty = [
@@ -106,21 +93,19 @@ export const skills__databases = [
 export const skills__texnologys = [
     { image: Wordpress, text: 'Wordpress' },
     { image: Bash, text: 'Bash' },
-    { image: Docker, text: 'Docker' },
+
     { image: GCP, text: 'Google Cloud' },
-    { image: Gradle, text: 'Gradle' },
+
     { image: Npm, text: 'Npm' },
-    { image: Pnpm, text: 'P Npm' },
+   
     { image: Yarn, text: 'Yarn' },
-    { image: Postman, text: 'Postman' },
+   
 
 ]
 
 export const skills__vertioncontrol = [
     { image: Git, text: 'Git' },
     { image: Github, text: 'Git Hub' },
-    { image: GithubActions, text: 'Git Actions' },
-    { image: GitLab, text: 'Git Lab' },
 ]
 export const skills__Mobile = [
     { image: ReactNative, text: 'React Native' },

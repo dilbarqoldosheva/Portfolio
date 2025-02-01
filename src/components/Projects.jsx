@@ -4,13 +4,9 @@ import { faPersonCircleQuestion, faEarthAmericas } from '@fortawesome/free-solid
 import Btnfirst from './buttons/First';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import pacman from "../Assets/projects/Pacman.png"
-import qrpay from "../Assets/projects/qrpay.png"
-import pch from "../Assets/projects/pch14.png"
-import sfera_systems from "../Assets/projects/sfera_system.jpg"
-import gsr_logistic from "../Assets/projects/GSR Logistic Management.png"
-import gts_office from "../Assets/projects/gts-office.jpg"
+
 import bookers from "../Assets/projects/bookers.jpg"
+import qrhub from "../Assets/projects/QrHub.png"
 
 function Projects() {
   useEffect(() => {
@@ -23,64 +19,14 @@ function Projects() {
 
   const [listProjects] = useState([
     {
-      name: 'CR - Pay',
+      name: 'QR - Hub',
       type: 'game',
-      des: "Web Dashboard and Mobile application in ios and android",
-      mission: 'The goal of the project: an iOS and Android application and a website were created that allow customers to pay by converting foreign currency into Uzbek soums using a QR code.',
-      language: 'React Native for mobile , Vite reactJs bank integrations ',
-      images: qrpay,
-      link: 'http://qrpay.uz',
-      github: 'https://github.com/Alisher0903/qr-web'
-    },
-    {
-      name: 'Railway Plan',
-      type: 'dashboard',
-      des: "The Kashkadarya railway repair enterprise is a structural unit of the Karshi Regional Railway Junction branch enterprise. This enterprise is independently fully responsible for the results of its economic activity, in accordance with the law, before consumers, the state budget, the bank, and the enterprise team for the obligations received on the basis of mutually concluded contracts.",
-      mission: 'The goal of our website is to automate maintenance and manage it more efficiently. Facilitates planning, monitoring and reporting through this website. The main functions of the website consist of:',
-      language: 'Next Js (React) Typescript, Tailwind CSS',
-      images: pch,
-      link: 'https://pch14.uz/home',
-      github: 'https://github.com/SardorbekCoder07/Railway_z'
-    },
-    {
-      name: 'Pacman',
-      type: 'game',
-      des: "A Pac-Man game written in JavaScript (JS), an implementation of the JavaScript programming language to define a version of the classic arcade game to run in web browsers.",
-      mission: 'is a deep understanding of java scripting down to the basics',
-      language: 'HTML5, CSS3, Java Script',
-      images: pacman,
-      link: 'https://abdulazizs-pacman.vercel.app/',
-      github: 'https://github.com/abdulazizsaidovcode/PACMAN'
-    },
-    {
-      "name": "Sfera Systems",
-      "type": "educational management system",
-      "des": "A comprehensive system for educational centers that manages student registrations, attendance, assessments, video tutorials, and evaluates student performance while monitoring the status of the educational center.",
-      "mission": "To systematize the management of educational centers and enhance the educational process through efficient use of technology.",
-      "language": "React js, Next, Zustand, React query, Typescript, Acernaty UI, Shadcn UI",
-      "images": sfera_systems,
-      "link": "",
-      "github": "https://github.com/abdulazizsaidovcode"
-    }
-    , {
-      "name": "GSR Logistic Management",
-      "type": "logistics management system",
-      "des": "A system designed to manage logistics companies, offering features like fleet management, cargo tracking, and operational efficiency.",
-      "mission": "To streamline operations for logistics companies and provide a centralized platform for managing logistics operations.",
-      "language": "React js, Zustand, Type Script, React query, Chakra UI",
-      "images": gsr_logistic,
-      "link": "",
-      "github": "https://github.com/abdulazizsaidovcode"
-    },
-    {
-      "name": "GTS1 Office Testing System",
-      "type": "pre-employment testing system",
-      "des": "A system that provides testing services for office spaces before employment, helping companies ensure that their new hires are fit for their roles.",
-      "mission": "To assist companies in making informed hiring decisions by providing comprehensive pre-employment testing.",
-      "language": "React js, Zustand, Type Script, React query, Chacra UI",
-      "images": gts_office,
-      "link": "",
-      "github": "https://github.com/abdulazizsaidovcode"
+      des: "Web Dashboard to control",
+      mission: "Facilitate payment via QR and exchange RUB to UZS",
+      language: 'Vite + React.js and TypeScript Material Ui,Tailwind CSS',
+      images: qrhub,
+      link: 'http://qrhub.uz',
+      github: 'https://github.com/abdulazizsaidovcode/QrHup'
     },
     {
       "name": "Bookers",

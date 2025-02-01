@@ -4,11 +4,11 @@ function Contacts() {
   const [listContacts] = useState([
     {
       title: 'Phone Number',
-      value: '+998 91 959 5599',
+      value: '+998 90 3132235',
     },
     {
       title: 'Email',
-      value: 'abdulazizsaidovcode@gmail.com',
+      value: 'bintushokir07@gmail.com',
     },
   ]);
 
