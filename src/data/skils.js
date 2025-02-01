@@ -64,6 +64,7 @@ export const skills__libs = [
     { image: Bootstrap, text: 'bootstrap' },
     { image: Sass, text: 'Sass' },
    
+    
     { image: React, text: 'React Js ' },
    
   
